@@ -1,0 +1,26 @@
+{
+  "name": "zoom-clone",
+  "version": "1.0.0",
+  "description": "Projeto Zoom Clone, usando NodeJS, Express, EJS, WebRTC, Socket.io, PeerJS e UUID",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "zoom",
+    "webrtc",
+    "nodejs"
+  ],
+  "author": "Luiz Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
